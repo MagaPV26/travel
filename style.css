@@ -1,0 +1,56 @@
+#contenedor-de-dados{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.dado{
+   width: 15rem;
+   margin: 1rem;
+   background-color: rgb(221, 221, 221);
+   justify-content: center;
+   border-radius:  5px;
+   height: 15rem;
+   display: flex;
+}
+
+.circulo-del-dado{
+    width: 3rem;
+    height: 3rem;
+    background-color: black;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.contenedor-del-circulo, .contenedor-del-circulo-32{
+    display: flex;
+    align-items: center;
+}
+
+.dado-2{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contenedor-del-circulo-22, .contenedor-del-circulo-33{
+    display: flex;
+    align-items: flex-end;
+}
+
+.contenedor-de-2-circulos{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.dado-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenedor-de-1-circulo{
+    display: flex;
+    justify-content: center;
+}
